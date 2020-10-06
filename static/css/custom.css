@@ -3,13 +3,21 @@
 }
 
 #site-title {
-    /*font-family: 'Source Sans Pro', sans-serif;*/
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 120px;
-    /*line-height: 1.2;*/
-    /*text-align: center;*/
-    /*text-transform: uppercase;*/
-    /*font-weight: 600;*/
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
     color: #e3cbcb; !important;
+}
+#site-description{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #e3cbcb; !important;
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 #big-title {

@@ -1,7 +1,7 @@
 BaseURL = "http://localhost:1313/"
 languageCode = "en-us"
 paginate = 6
-Title = "Lena Stöffelbauer"
+title = "Lena Stöffelbauer"
 
 
 # Socail icons

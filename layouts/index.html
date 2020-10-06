@@ -1,81 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Lena Stöffelbauer</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <link rel="stylesheet" href="css/custom.css">
-</head>
+{{ partial "head.html"}}
 <body>
-<header class="justify-content-center p-3 p-sm-5">
-    <div class="container-xl mt-5">
-        <div class="row align-items-center mb-3">
-            <div class=" col-xl-4">
-                <div id="title-area">
-                    <h1 id="site-title">Lena</h1>
-                    <p id="site-description">A Modern &amp; Feminine WordPress Theme</p>
-                </div>
-            </div>
-            <div class=" col-xl-8 ">
-                <div class="border-top border-bottom" style="padding-left: 0;padding-right: 0">
-                    <nav class="navbar navbar-expand-lg navbar-light p-0" style="justify-content: center">
-
-                        <button style="height: 100%;width: 100%" class="navbar-content navbar-toggler border-0"
-                                type="button" data-toggle="collapse"
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="true" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-
-                        <!-- set min width for navbar -->
-                        <div class="collapse navbar-collapse navbar-content" id="navbarSupportedContent">
-                            <ul class="navbar-nav m-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
-
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Dropdown
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#">Action</a>
-                                        <a class="dropdown-item" href="#">Another action</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="#">Something else here</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link disabled" href="#">Disabled</a>
-                                </li>
-                            </ul>
-                        </div>
-
-                    </nav>
-                </div>
-            </div>
-
-
-        </div>
-
-    </div>
-</header>
+{{partial "header.html"}}
 <section class="justify-content-center p-3 p-sm-5 bg-secondary">
     <div class="container-xl justify-content-center">
         <div class="row  align-items-center">
@@ -95,44 +22,9 @@
         </div>
     </div>
 </section>
-<section class="justify-content-center p-3 p-sm-5">
-    <div class="container-xl">
-        <div class="row">
-            <div class="col-sm icon-col">
-                <a href="/">
-                    <img src="img/drawing.png"
-                         class="icon" alt=""/>
-                </a>
-            </div>
-            <div class="col-sm icon-col">
-                <a href="/">
-                    <img src="img/photo.png"
-                         class="icon" alt=""/>
-                </a>
-            </div>
-            <div class="col-sm icon-col">
-                <a href="/">
-                    <img src="img/travel.png"
-                         class="icon" alt=""/>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="justify-content-center p-3 p-sm-5 bg-secondary">
-    <div class="container-xl">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-        diam
-        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
-        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-        ipsum
-        dolor sit amet.
-    </div>
-</section>
-<footer style="text-align: center" class="justify-content-center p-3 p-sm-5 bg-dark">
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-    diam
-    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-</footer>
+{{partial "navIcons.html"}}
+{{partial "about.html"}}
+
+{{partial "footer.html"}}
 </body>
 </html>

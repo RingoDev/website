@@ -10,7 +10,35 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f8bf4c6-1087-4b9f-b31d-b19559782470" name="Default Changelist" comment="" />
+    <list default="true" id="5f8bf4c6-1087-4b9f-b31d-b19559782470" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/save/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/img/drawing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/img/photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/img/travel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save/js/bootstrap.min.js.map" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +65,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/save" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -45,6 +73,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/save" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>

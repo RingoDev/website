@@ -15,3 +15,18 @@
 #big-title {
 
 }
+
+#main-img {
+    box-shadow: -15px 15px #d7cbbd;
+}
+
+.navbar-content {
+    padding: 10px 0 10px 0
+}
+
+.icon {
+    max-width: 120px;
+}
+.icon-col{
+    text-align: center;
+}

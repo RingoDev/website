@@ -1,0 +1,105 @@
+#title-area{
+    text-align: center;
+}
+
+#site-title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 120px;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #e3cbcb; !important;
+}
+#site-description{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #e3cbcb; !important;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#big-title {
+
+}
+
+.navbar-content {
+    padding: 10px 0 10px 0;
+
+}
+
+.collapse.show{
+    background-color: #bfc3cc;
+    padding-left: 10px;
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.collapsed{
+    background-color: #ffffff;
+}
+
+.button{
+    background-color: #bfc3cc;
+}
+
+.collapsing{
+    background-color: #bfc3cc;
+    padding-left: 10px;
+    padding-top:0;
+    padding-bottom: 0;
+}
+
+.icon {
+    max-width: 120px;
+}
+.icon-col{
+    text-align: center;
+}
+#menu-button{
+    border-radius: 0;
+}
+#menu-button:hover{
+    background-color: #bfc3cc;
+}
+
+#menu-button:focus{
+    outline: 0;
+    background-color: #bfc3cc;
+}
+
+.navbar-light .show .navbar-nav .nav-link{
+    color:white;
+}
+.navbar-light .collapsing .navbar-nav .nav-link{
+    color:white;
+}
+
+.text-left-xs {
+    text-align: left !important;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 576px) {
+    .text-left-sm {
+        text-align: left !important;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) {
+    .text-left-md {
+        text-align: left !important;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) {
+    .text-left-lg {
+        text-align: left !important;
+    }
+}
+.bg-secondary{
+    background-color: #e9d7d761 !important;
+}

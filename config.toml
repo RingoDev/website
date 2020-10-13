@@ -1,0 +1,7 @@
+# Site settings
+
+baseURL = "/"
+languageCode = "en-us"
+title = "Lena Stöffelbauer"
+theme = "ella"
+

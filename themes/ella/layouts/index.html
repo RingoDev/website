@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang={{ site.LanguageCode }}>
+{{ partial "head.html"}}
+<body>
+{{partial "header.html"}}
+<section class="justify-content-center bg-secondary">
+    <div>
+<!--    <div class="  container justify-content-center">-->
+        <div class="row align-items-center " style="max-width: 100%">
+            <div class="text-left-md col-sm align-items-center p-0 " style="text-align: center; max-width: 640px">
+
+                <img width="640" height="800"
+                     src="{{ site.BaseURL}}img/main.jpg"
+                     class="mr-0 mt-md-0 main-img d-none d-xl-block" alt=""/>
+                <img width="560" height="700"
+                     src="{{ site.BaseURL}}img/main.jpg"
+                     class="mr-0  mt-md-0 main-img d-none d-lg-block d-xl-none" alt=""/>
+                <img width="480" height="600"
+                     src="{{ site.BaseURL}}img/main.jpg"
+                     class=" mt-md-0 main-img d-none d-md-block d-lg-none" alt=""/>
+                <img width="320" height="400"
+                     src="{{ site.BaseURL}}img/main.jpg"
+                     class="mt-md-0 main-img d-sm-block d-md-none" alt=""/>
+            </div>
+            <div class="col-sm mx-5" style="text-align: left;font-size: larger">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam
+                nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+                ipsum
+                dolor sit amet.
+            </div>
+        </div>
+    </div>
+
+</section>
+{{partial "navIcons.html"}}
+{{partial "about.html"}}
+{{partial "footer.html"}}
+</body>
+</html>

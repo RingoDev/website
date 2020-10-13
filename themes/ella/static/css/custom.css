@@ -24,10 +24,6 @@ a:hover{
 
 }
 
-#main-img {
-    box-shadow: -15px 15px #d7cbbd;
-}
-
 .navbar-content {
     padding: 10px 0 10px 0;
 
@@ -78,4 +74,32 @@ a:hover{
 }
 .navbar-light .collapsing .navbar-nav .nav-link{
     color:white;
+}
+
+.text-left-xs {
+    text-align: left !important;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 576px) {
+    .text-left-sm {
+        text-align: left !important;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) {
+    .text-left-md {
+        text-align: left !important;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 992px) {
+    .text-left-lg {
+        text-align: left !important;
+    }
+}
+.bg-secondary{
+    background-color: #e9d7d761 !important;
 }

@@ -1,0 +1,22 @@
+{{ define "main" }}
+<section id="main" class="justify-content-center p-3 p-sm-5 pt-sm-0">
+<!--    <h1 id="title" class="pb-5" style="text-align: center">{{ .Title }}</h1>-->
+
+    <!--        <article id="content">-->
+    <!--            {{ .Content }}-->
+    <!--        </article>-->
+    {{ $url := .Title | printf "/img/photography/%s" }}
+    {{ $folder := .Title | printf "/static/img/photography/%s" }}
+    {{ $files := readDir $folder }}
+    <div class=" container-xl justify-content-center">
+        <div id="photos">
+            {{ range $files }}
+            <a href="{{$url}}/{{.Name | urlize }}">
+                <img src="{{$url}}/{{.Name | urlize }}">
+            </a>
+            {{ end }}
+        </div>
+    </div>
+
+</section>
+{{ end }}

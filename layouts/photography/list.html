@@ -1,0 +1,22 @@
+{{ define "main" }}
+
+<section id="main">
+    <h1 id="title">{{ .Title }}</h1>
+    <div>
+        <article id="content">
+            {{ .Content }}
+        </article>
+        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+        {{ range $paginator.Pages }}
+        <div class="post">
+            <h2 class="post-item post-title">
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+            </h2>
+            <div class="post-item post-summary markdown-body">
+                {{ .Summary }}
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</section>
+{{ end }}
